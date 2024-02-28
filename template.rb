@@ -9,7 +9,7 @@ if is_dev
   rocket_cms_path = File.realpath(options[:template] + "/..")
 end
 
-if Gem::Version.new(version) < Gem::Version.new('6.0.0')
+if Gem::Version.new(version) < Gem::Version.new('7.0.0')
   puts "You are using an old version of Rails (#{version})"
   puts "Please update"
   puts "Stopping"
